@@ -1,4 +1,11 @@
-h3 {
-  background-color: green;
-  font-size: 100px;
+p {
+  background-color: greenyellow;
+}
+
+#red {
+  background-color: red;
+}
+
+.blue {
+  background-color: lightseagreen;
 }
