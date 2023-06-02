@@ -1,3 +1,24 @@
+/* Specificity = 111 */
+div#bigger.red {
+  width: 500px;
+}
+
+/* Specificity = 101 */
+div#bigger {
+  width: 500px;
+}
+
+/* Specificity = 100 */
+#bigger {
+  width: 300px;
+}
+
+/* Specificity = 10*/
+div.circle {
+  background-color: purple;
+}
+
+/* Specificity = 10*/
 .circle {
   width: 200px;
   height: 200px;
@@ -6,7 +27,13 @@
   margin-bottom: 10px;
 }
 
-.red {
+/* Specificity = 11*/
+div.green {
+  background-color: green;
+}
+
+/* Specificity = 11*/
+div.red {
   background-color: red;
 }
 
@@ -14,6 +41,6 @@
   background-color: blue;
 }
 
-#bigger {
-  width: 300px;
-}
+/* Element Selector  +1 */
+/* Class Selector  +10 */
+/* Id Selector +100 */
