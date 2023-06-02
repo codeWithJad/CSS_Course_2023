@@ -1,46 +1,12 @@
-/* Specificity = 111 */
-div#bigger.red {
-  width: 500px;
-}
-
-/* Specificity = 101 */
-div#bigger {
-  width: 500px;
-}
-
-/* Specificity = 100 */
-#bigger {
-  width: 300px;
-}
-
-/* Specificity = 10*/
-div.circle {
-  background-color: purple;
-}
-
-/* Specificity = 10*/
 .circle {
   width: 200px;
   height: 200px;
-  background-color: black;
   border-radius: 50%;
-  margin-bottom: 10px;
 }
 
-/* Specificity = 11*/
-div.green {
-  background-color: green;
+.color {
+  background-color: rgba(255, 60, 0, 20%);
 }
 
-/* Specificity = 11*/
-div.red {
-  background-color: red;
-}
-
-.blue {
-  background-color: blue;
-}
-
-/* Element Selector  +1 */
-/* Class Selector  +10 */
-/* Id Selector +100 */
+/* RGB (redness,  grenness, Blueness, opacity)  
+*/
