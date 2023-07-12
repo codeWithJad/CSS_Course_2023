@@ -13,19 +13,14 @@
   border: 5px solid tomato;
 }
 
-h1 {
-  text-align: center;
-  color: red;
-}
-
-h2 {
-  text-align: center;
-  color: red;
+h2,
+p {
   background-color: yellow;
 }
 
+h1,
+h2,
 p {
   text-align: center;
   color: red;
-  background-color: yellow;
 }
